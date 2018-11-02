@@ -11,9 +11,9 @@ while 1:
         if resINT == 49:
             print(res);
             pyautogui.press('D');
-        elif resINT == 50:
+        elif resINT == 50: # 2
             print(res);
-            pyautogui.press('A');
+            pyauAtogui.press('A');
     except:
         print("Cant read");
         time.sleep(.5);
