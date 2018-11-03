@@ -24,13 +24,13 @@ void loop()
 //    Serial.println(buttonpin1);
 //    Serial.println(buttonpin2);
     
-    if (buttonstate == 1) // Check wires read should be on 1, + on 2, - on 3
+    if (buttonstate == 0) // Check wires read should be on 1, + on 2, - on 3
     {
-      Serial.println(1);
+      Serial.println("2");
     }
-    else if (buttonstate2 ==1) //button 2 right.
+    else if (buttonstate2 == 0) //button 2 right.
     {
-      Serial.println(2);
+      Serial.println("1");
     }
-    delay(80); //lower number = more sensitive
+    delay(20);
 }
